@@ -1,0 +1,209 @@
+h1 {
+    color: #787EA0;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 2%;
+}
+
+h3 {
+    color: #777ea5;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.Outer-Box {
+    width: 550px;
+    height: 650px;
+    background-color: #b4bce7e8;
+    border: 1px solid #8a96e0e8;
+    border-radius: 1%;
+    margin: auto;
+    margin-bottom: 70px;
+    margin-top: 25px;
+    overflow: hidden;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;}
+
+
+
+/* .Outer-Box:hover {
+    background-color: ;
+
+} */
+
+.Agedisplay {
+    font-weight: 600;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Wightdisplay {
+    font-weight: 600;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Heightdisplay {
+    font-weight: 600;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Age-Block {
+    height: 25px;
+    width: 90px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 11px;
+    border: 1px solid #6471c5e8;
+    border-radius: 7%;
+    text-align: center;
+}
+
+.Weight-Block {
+    height: 25px;
+    width: 90px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15px;
+    border: 1px solid #6471c5e8;
+    border-radius: 7%;
+    text-align: center;
+}
+
+.Height-Block {
+    height: 25px;
+    width: 90px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 13.5px;
+    border: 1px solid #6471c5e8;
+    border-radius: 7%;
+    text-align: center;
+}
+
+.BMIDisplay {
+    font-weight: 600;
+    margin-top: 5px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.BMIDisplay-Block {
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    border: 1.5px solid #6471c5e8;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    padding-top: 12px;
+}
+
+button {
+    margin: auto;
+    display: flex;
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    font-weight: 600;
+    border: 1px solid rgb(90, 89, 89);
+    border-radius: 5%;
+  
+    margin-bottom: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #777ea5;
+    color: white;
+    text-align: center;
+    flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: space-around;
+  
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(63, 62, 62);
+    border: 1px solid black;
+    text-align: center;
+}
+.Resetbtnn{
+    text-align: center;
+}
+
+
+
+.Text-Under {
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    background-color: #b4bce7e8;
+    /* border: 1px solid black; */
+    /* border-radius: 5%; */
+    margin: auto;
+    margin-bottom: 70px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.hidden5 {
+    display: none;
+    height: 200px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 205px;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden4 {
+    display: none;
+    height: 200px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 205px;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden3 {
+    display: none;
+    height: 200px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 205px;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden2 {
+    display: none;
+    height: 200px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 205px;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+    height: 200px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 205px;
+}
+
+.visible {
+    display: block;
+}

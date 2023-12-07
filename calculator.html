@@ -1,0 +1,161 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .calculator {
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .calc_flex {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .calculator input {
+            outline: none;
+            color: black;
+            background-color: #e0e0e0;
+            border: 1px solid white;
+            border-radius: 4px;
+            width: 200px;
+            padding: 5px;
+        }
+
+        .calc_parent button {
+            margin: 10px 0;
+            background: #58aeae;
+            border: 1px solid white;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-radius: 4px;
+            padding: 7px 25px;
+            font-weight: 700;
+            transition: all 0.4s ease-in-out;
+        }
+
+        .calc_parent button:hover {
+            background: white;
+            border: 1px solid #58aeae;
+            color: #58aeae;
+        }
+
+        .calc_parent {
+            color: black;
+            width: 80%;
+            padding: 20px 0;
+            background: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            margin: 20px auto 40px;
+            border-radius: 8px;
+        }
+
+        .calc_parent>h3 {
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .click_h {
+            padding: 10px 0;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="calc_parent">
+        <h3>You Can Calculate your Min. Watt required</h3>
+        <div class="calculator">
+            <div class="calc_flex">
+                <div class="Eval-new">
+                    <input type="number" class="Eval">
+                </div>
+                X
+                <div class="WattofItem">
+                    <input type="number" class="WoI">
+                </div>
+                X
+                <div class="Min-watt">
+                    <input type="number" class="MinW">
+                </div>
+            </div>
+            <div class="calc_flex-qt">
+                <div class="answer">
+                    <input type="number" class="Ans">
+                </div>
+            </div>
+
+        </div>
+        <div class="button">
+            <button class="btn">Calculate</button>
+        </div>
+    </div>
+
+
+<script>
+        const Evall = document.querySelector('.Eval');
+        const WoII = document.querySelector('.WoI');
+        const MinVal = document.querySelector('.MinW');
+        const btn = document.querySelector('.btn');
+
+        // calculator event
+        btn.addEventListener('click', () => {
+            MinVal.value = Evall.value * WoII.value;
+            setTimeout((e) => {
+                alert('your Calculated No. is ' + Evall.value * WoII.value);
+            }, 150);
+        })
+    </script> 
+</body>
+
+</html>-->
+
+<!-- 
+<html>
+
+<head>
+    <title>Example </title>
+</head>
+
+<body>
+    <h1>Showing image with a click in JavaScript</h1>
+    <button id="show-image-button">Show Image</button>
+    <img id="my-image" src="https://www.tutorialspoint.com/javascript/images/javascript.jpg" class="hidden">
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        .visible {
+            display: block;
+        }
+    </style>
+    <script>
+        const showImageButton = document.getElementById("show-image-button");
+        const myImage = document.getElementById("my-image");
+        showImageButton.addEventListener("click", () => {
+            myImage.classList.toggle("visible");
+        });
+    </script>
+</body>
+
+</html> -->
